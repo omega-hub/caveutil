@@ -418,6 +418,8 @@ class caveutil:
 
 		obj.path = filename
 
+		obj.optimize = True
+		
 		sceneManager.loadModel(obj)
 
 
